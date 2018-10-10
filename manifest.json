@@ -1,0 +1,13 @@
+{
+    "name": "Chrome Image Extractor",
+    "version": "1.0",
+    "description": "Extracts images from the current web page that the user is browsing",
+    "permissions": ["activeTab"],
+    "manifest_version": 2,
+    "background":{
+        "scripts": ["popup.js"]
+    },
+    "browser_action": {
+		"default_popup": "popup.html"
+	}
+}
